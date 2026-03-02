@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Cat Breed Identifier",
-  description: "Upload a photo and instantly identify your cat's breed using AI",
+  title: "Meow Identifier 🐾 | Cat Breed AI",
+  description: "Upload a cat photo and let AI sniff out the breed — for cat lovers, by cat lovers.",
 };
 
 export default function RootLayout({
