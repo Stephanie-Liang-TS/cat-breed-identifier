@@ -276,7 +276,7 @@ export default function Home() {
         {/* ── Header ── */}
         <div className="text-center mb-9 relative">
           {/* Top-right controls: History + Language toggle */}
-          <div className="absolute top-0 right-0 flex items-center gap-2">
+          <div className="absolute top-0 right-0 flex items-center gap-2 z-10">
             <a
               href="/history"
               className="flex items-center gap-1 px-3 py-1.5 rounded-full text-xs font-semibold transition-all"

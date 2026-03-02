@@ -141,7 +141,7 @@ export default function HistoryPage() {
       <div className="max-w-2xl mx-auto px-4 py-10 pb-16">
         {/* Header */}
         <div className="text-center mb-8 relative">
-          <div className="absolute top-0 right-0 flex gap-2">
+          <div className="absolute top-0 right-0 flex gap-2 z-10">
             <button
               onClick={() => setLang(lang === "en" ? "zh" : "en")}
               className="flex items-center gap-1 px-3 py-1.5 rounded-full text-xs font-semibold"
