@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // assetPrefix: "/cat" — only needed when behind Caddy at /cat/ subpath
 };
 
 export default nextConfig;
