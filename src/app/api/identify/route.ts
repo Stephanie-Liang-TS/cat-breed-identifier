@@ -29,7 +29,7 @@ export async function POST(request: NextRequest) {
 
     const langInstruction =
       lang === "zh"
-        ? "Write the values for description, traits, fun_fact, and quality_comment fields in Simplified Chinese. All JSON field names must remain in English."
+        ? "CRITICAL: You MUST write ALL text values (description, every item in traits array, fun_fact, quality_comment) in Simplified Chinese (简体中文). Do NOT use English for any text content. Only JSON field names stay in English. 请用中文回答所有文本内容。"
         : "Write all text values in English.";
 
     const response = await openai.chat.completions.create({
